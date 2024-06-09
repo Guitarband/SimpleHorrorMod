@@ -20,6 +20,13 @@ public class ModCreativeModeTabs {
                     .displayItems(((itemDisplayParameters, output) -> {
                         output.accept(ModItems.BAZZLE_SHARD.get());
                         output.accept(ModBlocks.BAZZLE_BLOCK.get());
+
+                        output.accept(ModItems.BAZZLE_AXE.get());
+
+                        output.accept(ModItems.BAZZLE_HELMET.get());
+                        output.accept(ModItems.BAZZLE_CHESTPLATE.get());
+                        output.accept(ModItems.BAZZLE_LEGGINGS.get());
+                        output.accept(ModItems.BAZZLE_BOOTS.get());
                     }))
                     .build());
 

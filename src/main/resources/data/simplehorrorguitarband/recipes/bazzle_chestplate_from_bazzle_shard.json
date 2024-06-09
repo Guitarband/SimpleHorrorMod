@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "simplehorrorguitarband:bazzle_shard"
+    }
+  },
+  "result": {
+    "item": "simplehorrorguitarband:bazzle_chestplate",
+    "count": 1
+  }
+}
