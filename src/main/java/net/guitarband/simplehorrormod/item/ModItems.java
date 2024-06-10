@@ -2,6 +2,7 @@ package net.guitarband.simplehorrormod.item;
 
 import net.guitarband.simplehorrormod.SimpleHorrorMod;
 import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -17,7 +18,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> BAZZLE_AXE = ITEMS.register("bazzle_axe",
-            () -> new SwordItem(ModToolTiers.BAZZLE, 4, 2, new Item.Properties()));
+            () -> new AxeItem(ModToolTiers.BAZZLE, 4, 2, new Item.Properties()));
 
     public static final RegistryObject<Item> BAZZLE_HELMET = ITEMS.register("bazzle_helmet",
             () -> new ArmorItem(ModArmorMaterials.BAZZLE, ArmorItem.Type.HELMET, new Item.Properties()));

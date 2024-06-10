@@ -1,6 +1,28 @@
 {
-  "parent": "item/generated",
+  "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "simplehorrorguitarband:item/bazzle_axe"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [ 0, -90, 35 ],
+      "translation": [ 1.0, 14.0, 2.5 ],
+      "scale": [ 3.4, 3.4, 1.5 ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [ 0, 90, -35 ],
+      "translation": [ 1.0, 14.0, 2.5 ],
+      "scale": [ 3.4, 3.4, 1.5 ]
+    },
+    "firstperson_righthand": {
+      "rotation": [ 0, -90, 65 ],
+      "translation": [ 1.13, 3.2, 1.13 ],
+      "scale": [ 2.72, 2.72, 0.68 ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [ 0, 90, -65 ],
+      "translation": [ 1.13, 3.2, 1.13 ],
+      "scale": [ 2.72, 2.72, 0.68 ]
+    }
   }
 }
