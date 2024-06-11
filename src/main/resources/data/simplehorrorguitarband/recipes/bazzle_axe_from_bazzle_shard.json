@@ -1,19 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "pattern": [
-    "## ",
-    "#s ",
-    " s "
-  ],
   "key": {
-    "#": {
+    "b": {
       "item": "simplehorrorguitarband:bazzle_shard"
     },
     "s": {
       "item": "minecraft:stick"
     }
   },
+  "pattern": [
+    "bb ",
+    "bsb",
+    "s  "
+  ],
   "result": {
     "item": "simplehorrorguitarband:bazzle_axe",
     "count": 1

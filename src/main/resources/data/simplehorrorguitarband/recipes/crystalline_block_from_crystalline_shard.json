@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "simplehorrorguitarband:crystalline_shard"
+    }
+  },
+  "pattern": [
+    "ccc",
+    "ccc",
+    "ccc"
+  ],
+  "result": {
+    "item": "simplehorrorguitarband:crystalline_block",
+    "count": 1
+  }
+}

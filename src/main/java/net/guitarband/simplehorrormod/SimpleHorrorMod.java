@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.guitarband.simplehorrormod.block.ModBlocks;
 import net.guitarband.simplehorrormod.item.ModCreativeModeTabs;
 import net.guitarband.simplehorrormod.item.ModItems;
+import net.guitarband.simplehorrormod.loot.ModLootModifiers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -36,6 +37,7 @@ public class SimpleHorrorMod
         ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
+        ModLootModifiers.register((modEventBus));
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);

@@ -19,7 +19,10 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.simplehorrorguitarband"))
                     .displayItems(((itemDisplayParameters, output) -> {
                         output.accept(ModItems.BAZZLE_SHARD.get());
+                        output.accept(ModItems.CRYSTALLINE_SHARD.get());
+
                         output.accept(ModBlocks.BAZZLE_BLOCK.get());
+                        output.accept(ModBlocks.CRYSTALLINE_BLOCK.get());
 
                         output.accept(ModItems.BAZZLE_AXE.get());
 

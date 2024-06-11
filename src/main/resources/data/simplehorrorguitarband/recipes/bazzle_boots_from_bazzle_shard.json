@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "pattern": [
-    "   ",
-    "# #",
-    "# #"
-  ],
   "key": {
-    "#": {
+    "b": {
       "item": "simplehorrorguitarband:bazzle_shard"
     }
   },
+  "pattern": [
+    "   ",
+    "b b",
+    "b b"
+  ],
   "result": {
     "item": "simplehorrorguitarband:bazzle_boots",
     "count": 1

@@ -1,6 +1,7 @@
 package net.guitarband.simplehorrormod.item;
 
 import net.guitarband.simplehorrormod.SimpleHorrorMod;
+import net.guitarband.simplehorrormod.item.custom.ModArmorItem;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.Item;
@@ -17,11 +18,14 @@ public class ModItems {
     public static final RegistryObject<Item> BAZZLE_SHARD = ITEMS.register("bazzle_shard",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> CRYSTALLINE_SHARD = ITEMS.register("crystalline_shard",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> BAZZLE_AXE = ITEMS.register("bazzle_axe",
             () -> new AxeItem(ModToolTiers.BAZZLE, 4, 2, new Item.Properties()));
 
     public static final RegistryObject<Item> BAZZLE_HELMET = ITEMS.register("bazzle_helmet",
-            () -> new ArmorItem(ModArmorMaterials.BAZZLE, ArmorItem.Type.HELMET, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.BAZZLE, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> BAZZLE_CHESTPLATE = ITEMS.register("bazzle_chestplate",
             () -> new ArmorItem(ModArmorMaterials.BAZZLE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> BAZZLE_LEGGINGS = ITEMS.register("bazzle_leggings",

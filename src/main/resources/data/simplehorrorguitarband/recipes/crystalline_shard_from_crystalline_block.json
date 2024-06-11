@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "simplehorrorguitarband:crystalline_block"
+    }
+  ],
+  "result": {
+    "item": "simplehorrorguitarband:crystalline_shard",
+    "count": 9
+  }
+}

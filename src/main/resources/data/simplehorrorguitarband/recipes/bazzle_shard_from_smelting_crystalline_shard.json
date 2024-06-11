@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 1000,
+  "experience": 200,
+  "group": "bazzle",
+  "ingredient": {
+    "item": "simplehorrorguitarband:crystalline_shard"
+  },
+  "result": "simplehorrorguitarband:bazzle_shard"
+
+}
